@@ -84,3 +84,39 @@ body {
     border-color: rgb(255, 255, 255);
     transition: background-color 0.5s;
 }
+
+.carousel {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.carousel>div>button {
+    background-color: #f0ce5c;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    color: rgb(4, 4, 4);
+    margin-left: 10px;
+    align-items: center;
+    width: 60px;
+}
+
+.carousel>div>button:hover {
+    background-color: #bfa34a;
+    transition: background-color 0.5s;
+}
+
+.carousel>div>img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
