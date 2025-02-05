@@ -1,7 +1,9 @@
 import "./App.css";
 import LikeButton from "./components/LikeButton";
 import Counter from "./components/Counter";
+import ClickablePicture from "./components/ClickablePicture";
 import DiscoButton from "./components/DiscoButton";
+
 
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <LikeButton />
       <hr />
       <Counter />
+      <hr />
+      <ClickablePicture />
       <hr />
       <DiscoButton />
     </div>

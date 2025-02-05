@@ -72,3 +72,15 @@ body {
     border-color: rgb(255, 255, 255);
     transition: background-color 0.5s;
 }
+
+.clickable-picture {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.clickable-picture:hover {
+    box-shadow: 0 0 20px rgba(165, 199, 241, 0.447), 0 0 20px rgba(217, 230, 246, 0.567);
+    border-color: rgb(255, 255, 255);
+    transition: background-color 0.5s;
+}
