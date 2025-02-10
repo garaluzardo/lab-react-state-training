@@ -4,6 +4,7 @@ import Counter from "./components/Counter";
 import ClickablePicture from "./components/ClickablePicture";
 import DiscoButton from "./components/DiscoButton";
 import Carousel from "./components/Carousel";
+import Dice from "./components/Dice";
 
 
 
@@ -16,6 +17,8 @@ function App() {
       <Counter />
       <hr />
       <ClickablePicture />
+      <hr />
+      <Dice />
       <hr />
       <DiscoButton />
       <hr />
